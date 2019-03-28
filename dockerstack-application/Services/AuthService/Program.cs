@@ -1,34 +1,48 @@
-﻿namespace Agility.Focis.IdentityServer
+﻿// Copyright (c) Brock Allen & Dominick Baier. All rights reserved.
+// Licensed under the Apache License, Version 2.0. See LICENSE in the project root for license information.
+
+
+using Identity.Service;
+using Microsoft.AspNetCore;
+using Microsoft.AspNetCore.Hosting;
+using Microsoft.Extensions.Logging;
+using Serilog;
+using Serilog.Events;
+using Serilog.Sinks.SystemConsole.Themes;
+using System.Linq;
+
+namespace StsServer
 {
-    using Microsoft.AspNetCore.Hosting;
-    using System;
-    using System.Diagnostics;
-    using System.IO;
-    using System.Threading;
-    using System.Threading.Tasks;
-
-    internal static class Program
+    public class Program
     {
-        /// <summary>
-        /// This is the entry point of the service host process.
-        /// </summary>
-        private static void Main()
+        public static void Main(string[] args)
         {
-            try
-            {
-                var host = new WebHostBuilder()
-               .UseKestrel()
-               .UseContentRoot(Directory.GetCurrentDirectory())
-               .UseIISIntegration()
-               .UseStartup<Startup>()
-               .Build();
+             var host = BuildWebHost(args);
+             SeedData.EnsureSeedData(host.Services);
+             host.Run();
+        }
 
-                host.Run();
-            }
-            catch (Exception e)
-            {
-                 throw;
-            }
+        public static IWebHost BuildWebHost(string[] args)
+        {
+            Log.Logger = new LoggerConfiguration()
+                .MinimumLevel.Debug()
+                .MinimumLevel.Override("Microsoft", LogEventLevel.Warning)
+                .MinimumLevel.Override("System", LogEventLevel.Warning)
+                .MinimumLevel.Override("Microsoft.AspNetCore.Authentication", LogEventLevel.Information)
+                .Enrich.FromLogContext()
+                .WriteTo.File(@"identityserver4_log.txt")
+                .WriteTo.Console(outputTemplate: "[{Timestamp:HH:mm:ss} {Level}] {SourceContext}{NewLine}{Message:lj}{NewLine}{Exception}{NewLine}", theme: AnsiConsoleTheme.Literate)
+                .CreateLogger();
+
+            return WebHost.CreateDefaultBuilder(args)
+                    .UseStartup<Startup>()
+                    .UseIISIntegration()
+                    .ConfigureLogging(builder =>
+                    {
+                        builder.ClearProviders();
+                        builder.AddSerilog();
+                    })
+                    .Build();
         }
     }
 }

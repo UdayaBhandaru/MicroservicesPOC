@@ -1,0 +1,30 @@
+{
+  "IdentityUser": [
+    {
+      "Id": "11a61418-4274-4ba0-8402-5bb00ee3e302",
+      "UserName": "jashokan@agility.com",
+      "NormalizedUserName": "JASHOKAN@AGILITY.COM",
+      "Email": "jashokan@agility.com",
+      "NormalizedEmail": "JASHOKAN@AGILITY.COM",
+      "EmailConfirmed": true,
+      "SecurityStamp": "c3cfb043-1f48-487b-9d4b-4cc152d574ef",
+      "ConcurrencyStamp": "ea992032-097f-4120-b7d7-cf0d489b2cf7",
+      "PhoneNumber": null,
+      "PhoneNumberConfirmed": false,
+      "TwoFactorEnabled": false,
+      "LockoutEnd": null,
+      "LockoutEnabled": true,
+      "AccessFailedCount": 0,
+      "CreatedDate": null,
+      "OrganizationId": 1,
+      "TenantId": 1,
+      "DeletedInd": false,
+      "CreatedBy": null,
+      "ModifiedDate": null,
+      "ModifiedBy": null,
+      "UserProfileAsJson": "",
+      "IsActive": true,
+      "PasswordHash": "AQAAAAEAACcQAAAAEAyeJlTCzRPREUxSO6037xfTdRwYkU4WFZ34Sel8x1oIM5SP1jRReC42Ws3eYdghcQ=="
+    }
+  ]  
+}

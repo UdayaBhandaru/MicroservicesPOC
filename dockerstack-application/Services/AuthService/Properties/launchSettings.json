@@ -3,7 +3,7 @@
     "windowsAuthentication": true,
     "anonymousAuthentication": true,
     "iisExpress": {
-      "applicationUrl": "http://localhost:5000",
+      "applicationUrl": "http://localhost:8000/",
       "sslPort": 0
     }
   },
@@ -11,23 +11,25 @@
     "IIS Express": {
       "commandName": "IISExpress",
       "launchBrowser": true,
-      "launchUrl": "http://localhost:5000",
+      "launchUrl": "http://localhost:8000/",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "IdentityServerWithAspNetIdentity": {
+    "Host": {
       "commandName": "Project",
       "launchBrowser": true,
-      "launchUrl": "http://localhost:5000",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
-      }
+      },
+      "windowsAuthentication": true,
+      "applicationUrl": "http://localhost:8000",
+      "anonymousAuthentication": true
     },
     "Docker": {
       "commandName": "Docker",
       "launchBrowser": true,
-      "launchUrl": "{Scheme}://localhost:{ServicePort}"
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}/"
     }
   }
 }
