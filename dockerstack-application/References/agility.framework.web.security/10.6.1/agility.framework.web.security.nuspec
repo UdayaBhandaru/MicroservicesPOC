@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>Agility.Framework.Web.Security</id>
+    <version>10.6.1</version>
+    <authors>Agility.Framework.Web.Security</authors>
+    <owners>Agility.Framework.Web.Security</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Release Notes:</description>
+    <copyright>Agility E Services Pvt Ltd ©</copyright>
+    <dependencies>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="Agility.Framework.Caching" version="10.6.1" exclude="Build,Analyzers" />
+        <dependency id="Agility.Framework.Core" version="10.6.1" exclude="Build,Analyzers" />
+        <dependency id="AutoMapper" version="6.1.1" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.AspNetCore.Identity.EntityFrameworkCore" version="2.1.1" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.AspNetCore.Mvc" version="2.1.1" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.EntityFrameworkCore" version="2.1.1" exclude="Build,Analyzers" />
+        <dependency id="StyleCop.Analyzers" version="1.0.2" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>

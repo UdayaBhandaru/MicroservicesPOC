@@ -1,0 +1,73 @@
+services:
+  auth:
+    build:
+      context: D:\Github Opensource Code\MyMicroservicesApplication-master
+      dockerfile: dockerstack-application/Services/AuthService/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    image: auth
+    ports:
+    - published: 5000
+      target: 80
+  basket:
+    build:
+      context: D:\Github Opensource Code\MyMicroservicesApplication-master
+      dockerfile: dockerstack-application/Services/Basket/Basket.Application/Dockerfile
+    depends_on:
+    - redis.data
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      REDIS_CONNECTION: redis.data
+    image: basket
+    ports:
+    - published: 5003
+      target: 80
+  catalog:
+    build:
+      context: D:\Github Opensource Code\MyMicroservicesApplication-master
+      dockerfile: dockerstack-application/Services/Catalog/Catalog.Application/Dockerfile
+    depends_on:
+    - redis.data
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      REDIS_CONNECTION: redis.data
+    image: catalog
+    ports:
+    - published: 5004
+      target: 80
+  gateway:
+    build:
+      context: D:\Github Opensource Code\MyMicroservicesApplication-master
+      dockerfile: dockerstack-application/Services/Gateway/Api.Gateway/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    image: gateway
+    ports:
+    - published: 5001
+      target: 80
+  order:
+    build:
+      context: D:\Github Opensource Code\MyMicroservicesApplication-master
+      dockerfile: dockerstack-application/Services/Orders/Orders.Application/Dockerfile
+    depends_on:
+    - redis.data
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      REDIS_CONNECTION: redis.data
+    image: order
+    ports:
+    - published: 5002
+      target: 80
+  redis.data:
+    image: redis
+  spa:
+    build:
+      context: D:\Github Opensource Code\MyMicroservicesApplication-master
+      dockerfile: dockerstack-application/Clients/SPA/ClientApp/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Production
+    image: spa
+    ports:
+    - published: 5005
+      target: 80
+version: '3.4'

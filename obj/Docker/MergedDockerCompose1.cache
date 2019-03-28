@@ -1,0 +1,153 @@
+services:
+  auth:
+    build:
+      context: D:\Github Opensource Code\MyMicroservicesApplication-master
+      dockerfile: dockerstack-application/Services/AuthService/Dockerfile
+      target: base
+    entrypoint: tail -f /dev/null
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      DOTNET_USE_POLLING_FILE_WATCHER: '1'
+      NUGET_FALLBACK_PACKAGES: /root/.nuget/fallbackpackages
+    image: auth:dev
+    labels:
+      com.microsoft.visualstudio.debuggee.arguments: ' --additionalProbingPath /root/.nuget/packages
+        --additionalProbingPath /root/.nuget/fallbackpackages  bin/Debug/netcoreapp2.1/AuthService.dll'
+      com.microsoft.visualstudio.debuggee.killprogram: /bin/bash -c "if PID=$$(pidof
+        -x dotnet); then kill $$PID; fi"
+      com.microsoft.visualstudio.debuggee.program: dotnet
+      com.microsoft.visualstudio.debuggee.workingdirectory: /app
+    ports:
+    - published: 5000
+      target: 80
+    volumes:
+    - D:\Github Opensource Code\MyMicroservicesApplication-master\dockerstack-application\Services\AuthService:/app:rw
+    - C:\Users\ubhandaru\vsdbg\vs2017u5:/remote_debugger:ro
+    - C:\Program Files\dotnet\sdk\NuGetFallbackFolder:/root/.nuget/fallbackpackages:ro
+    - C:\Users\ubhandaru\.nuget\packages:/root/.nuget/packages:ro
+  basket:
+    build:
+      context: D:\Github Opensource Code\MyMicroservicesApplication-master
+      dockerfile: dockerstack-application/Services/Basket/Basket.Application/Dockerfile
+      target: base
+    depends_on:
+    - redis.data
+    entrypoint: tail -f /dev/null
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      DOTNET_USE_POLLING_FILE_WATCHER: '1'
+      NUGET_FALLBACK_PACKAGES: /root/.nuget/fallbackpackages
+      REDIS_CONNECTION: redis.data
+    image: basket:dev
+    labels:
+      com.microsoft.visualstudio.debuggee.arguments: ' --additionalProbingPath /root/.nuget/packages
+        --additionalProbingPath /root/.nuget/fallbackpackages  bin/Debug/netcoreapp2.1/Basket.Application.dll'
+      com.microsoft.visualstudio.debuggee.killprogram: /bin/bash -c "if PID=$$(pidof
+        -x dotnet); then kill $$PID; fi"
+      com.microsoft.visualstudio.debuggee.program: dotnet
+      com.microsoft.visualstudio.debuggee.workingdirectory: /app
+    ports:
+    - published: 5003
+      target: 80
+    volumes:
+    - D:\Github Opensource Code\MyMicroservicesApplication-master\dockerstack-application\Services\Basket\Basket.Application:/app:rw
+    - C:\Users\ubhandaru\vsdbg\vs2017u5:/remote_debugger:ro
+    - C:\Program Files\dotnet\sdk\NuGetFallbackFolder:/root/.nuget/fallbackpackages:ro
+    - C:\Users\ubhandaru\.nuget\packages:/root/.nuget/packages:ro
+  catalog:
+    build:
+      context: D:\Github Opensource Code\MyMicroservicesApplication-master
+      dockerfile: dockerstack-application/Services/Catalog/Catalog.Application/Dockerfile
+      target: base
+    depends_on:
+    - redis.data
+    entrypoint: tail -f /dev/null
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      DOTNET_USE_POLLING_FILE_WATCHER: '1'
+      NUGET_FALLBACK_PACKAGES: /root/.nuget/fallbackpackages
+      REDIS_CONNECTION: redis.data
+    image: catalog:dev
+    labels:
+      com.microsoft.visualstudio.debuggee.arguments: ' --additionalProbingPath /root/.nuget/packages
+        --additionalProbingPath /root/.nuget/fallbackpackages  bin/Debug/netcoreapp2.1/Catalog.Application.dll'
+      com.microsoft.visualstudio.debuggee.killprogram: /bin/bash -c "if PID=$$(pidof
+        -x dotnet); then kill $$PID; fi"
+      com.microsoft.visualstudio.debuggee.program: dotnet
+      com.microsoft.visualstudio.debuggee.workingdirectory: /app
+    ports:
+    - published: 5004
+      target: 80
+    volumes:
+    - D:\Github Opensource Code\MyMicroservicesApplication-master\dockerstack-application\Services\Catalog\Catalog.Application:/app:rw
+    - C:\Users\ubhandaru\vsdbg\vs2017u5:/remote_debugger:ro
+    - C:\Program Files\dotnet\sdk\NuGetFallbackFolder:/root/.nuget/fallbackpackages:ro
+    - C:\Users\ubhandaru\.nuget\packages:/root/.nuget/packages:ro
+  gateway:
+    build:
+      context: D:\Github Opensource Code\MyMicroservicesApplication-master
+      dockerfile: dockerstack-application/Services/Gateway/Api.Gateway/Dockerfile
+      target: base
+    entrypoint: tail -f /dev/null
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      DOTNET_USE_POLLING_FILE_WATCHER: '1'
+      NUGET_FALLBACK_PACKAGES: /root/.nuget/fallbackpackages
+    image: gateway:dev
+    labels:
+      com.microsoft.visualstudio.debuggee.arguments: ' --additionalProbingPath /root/.nuget/packages
+        --additionalProbingPath /root/.nuget/fallbackpackages  bin/Debug/netcoreapp2.1/Api.Gateway.dll'
+      com.microsoft.visualstudio.debuggee.killprogram: /bin/bash -c "if PID=$$(pidof
+        -x dotnet); then kill $$PID; fi"
+      com.microsoft.visualstudio.debuggee.program: dotnet
+      com.microsoft.visualstudio.debuggee.workingdirectory: /app
+    ports:
+    - published: 5001
+      target: 80
+    volumes:
+    - D:\Github Opensource Code\MyMicroservicesApplication-master\dockerstack-application\Services\Gateway\Api.Gateway:/app:rw
+    - C:\Users\ubhandaru\vsdbg\vs2017u5:/remote_debugger:ro
+    - C:\Program Files\dotnet\sdk\NuGetFallbackFolder:/root/.nuget/fallbackpackages:ro
+    - C:\Users\ubhandaru\.nuget\packages:/root/.nuget/packages:ro
+  order:
+    build:
+      context: D:\Github Opensource Code\MyMicroservicesApplication-master
+      dockerfile: dockerstack-application/Services/Orders/Orders.Application/Dockerfile
+      target: base
+    depends_on:
+    - redis.data
+    entrypoint: tail -f /dev/null
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      DOTNET_USE_POLLING_FILE_WATCHER: '1'
+      NUGET_FALLBACK_PACKAGES: /root/.nuget/fallbackpackages
+      REDIS_CONNECTION: redis.data
+    image: order:dev
+    labels:
+      com.microsoft.visualstudio.debuggee.arguments: ' --additionalProbingPath /root/.nuget/packages
+        --additionalProbingPath /root/.nuget/fallbackpackages  bin/Debug/netcoreapp2.1/Orders.Application.dll'
+      com.microsoft.visualstudio.debuggee.killprogram: /bin/bash -c "if PID=$$(pidof
+        -x dotnet); then kill $$PID; fi"
+      com.microsoft.visualstudio.debuggee.program: dotnet
+      com.microsoft.visualstudio.debuggee.workingdirectory: /app
+    ports:
+    - published: 5002
+      target: 80
+    volumes:
+    - D:\Github Opensource Code\MyMicroservicesApplication-master\dockerstack-application\Services\Orders\Orders.Application:/app:rw
+    - C:\Users\ubhandaru\vsdbg\vs2017u5:/remote_debugger:ro
+    - C:\Program Files\dotnet\sdk\NuGetFallbackFolder:/root/.nuget/fallbackpackages:ro
+    - C:\Users\ubhandaru\.nuget\packages:/root/.nuget/packages:ro
+  redis.data:
+    image: redis
+  spa:
+    build:
+      context: D:\Github Opensource Code\MyMicroservicesApplication-master
+      dockerfile: dockerstack-application/Clients/SPA/ClientApp/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Production
+    image: spa
+    ports:
+    - published: 5005
+      target: 80
+version: '3.4'

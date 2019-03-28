@@ -1,0 +1,62 @@
+version: '3.4'
+
+services:
+  auth:
+    image: ${DOCKER_REGISTRY}auth
+    build:
+      context: .
+      dockerfile: ../AuthService/Dockerfile
+    ports:
+      - "5000:80"
+    environment:
+            ASPNETCORE_ENVIRONMENT: "Development"
+  gateway:
+    image: ${DOCKER_REGISTRY}gateway
+    build:
+      context: .
+      dockerfile: ../Gateway/Api.Gateway/Dockerfile
+    ports:
+      - "5001:80"
+    environment:
+            ASPNETCORE_ENVIRONMENT: "Development"
+  order:
+    image: ${DOCKER_REGISTRY}order
+    build:
+      context: .
+      dockerfile: ../Orders/Orders.Application/Dockerfile
+    ports:
+      - "5002:80"
+    environment:
+            ASPNETCORE_ENVIRONMENT: "Development"
+            REDIS_CONNECTION: "redis.data"
+    depends_on:
+            - redis.data
+  basket:
+    image: ${DOCKER_REGISTRY}basket
+    build:
+      context: .
+      dockerfile: ../Basket/Basket.Application/Dockerfile
+    ports:
+      - "5003:80"
+    environment:
+            ASPNETCORE_ENVIRONMENT: "Development"
+            REDIS_CONNECTION: "redis.data"
+    depends_on:
+            - redis.data
+  catalog:
+    image: ${DOCKER_REGISTRY}catalog
+    build:
+      context: .
+      dockerfile: ../Catalog/Catalog.Application/Dockerfile
+    ports:
+      - "5004:80"
+    environment:
+            ASPNETCORE_ENVIRONMENT: "Development"
+            REDIS_CONNECTION: "redis.data"
+    depends_on:
+            - redis.data
+
+  redis.data:
+        image: redis
+
+  

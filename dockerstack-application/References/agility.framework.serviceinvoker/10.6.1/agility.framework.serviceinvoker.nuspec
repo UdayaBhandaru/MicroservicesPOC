@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>Agility.Framework.ServiceInvoker</id>
+    <version>10.6.1</version>
+    <authors>Agility.Framework.ServiceInvoker</authors>
+    <owners>Agility.Framework.ServiceInvoker</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Release Notes:</description>
+    <copyright>Agility E Services Pvt Ltd ©</copyright>
+    <dependencies>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="Agility.Framework.Web.Core" version="10.6.1" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.AspNetCore" version="2.1.1" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.AspNetCore.Mvc" version="2.1.1" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Configuration" version="2.1.1" exclude="Build,Analyzers" />
+        <dependency id="System.Configuration.ConfigurationManager" version="4.4.0" exclude="Build,Analyzers" />
+        <dependency id="System.Net.Http" version="4.3.3" exclude="Build,Analyzers" />
+        <dependency id="System.Threading" version="4.3.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>

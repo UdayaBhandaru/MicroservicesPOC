@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>Agility.Framework.Caching</id>
+    <version>10.6.1</version>
+    <authors>Agility.Framework.Caching</authors>
+    <owners>Agility.Framework.Caching</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Release Notes:</description>
+    <copyright>Agility E Services Pvt Ltd ©</copyright>
+    <dependencies>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="Agility.Framework.Core" version="10.6.1" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.AspNetCore.Mvc.Abstractions" version="2.1.1" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Caching.Redis" version="2.1.1" exclude="Build,Analyzers" />
+        <dependency id="Newtonsoft.Json" version="11.0.2" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>

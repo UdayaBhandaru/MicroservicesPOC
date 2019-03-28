@@ -1,0 +1,73 @@
+<div class="container">
+  <div class="well well-sm">
+    <div class="btn-group">
+      <button (click)="backToShop()" class="btn btn-default btn-sm">
+        <span class="glyphicon glyphicon-backward"></span> Back to shopping
+      </button>
+      <button (click)="deleteCurrentBasket()" class="btn btn-default btn-sm">
+        <span class="glyphicon glyphicon-remove-sign"></span> Delete cart
+      </button>
+    </div>
+    <div class="btn-group pull-right">
+      <button (click)="logout()" class="btn btn-default btn-sm">
+        <span class="glyphicon glyphicon-log-out"></span>
+      </button>
+    </div>
+  </div>
+  <div class="page-header">
+    <h1>Basket</h1>
+  </div>
+  <div class="row">
+    <div class="col-xs-12">
+      <div class="row">
+        <div class="col-xs-12">
+          <table id="simple-table" class="table table-striped table-bordered table-hover">
+            <thead>
+            <tr>
+              <th class="center">Product name</th>
+              <th class="center">Unit Price</th>
+              <th class="center">Quantity</th>
+              <th class="center">Total</th>
+              <th>Remove</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr *ngFor="let item of basket.basketItems">
+              <td>{{item.productName}}</td>
+              <td>{{item.unitPrice | currency}}</td>
+              <td>
+                <!--TODO: editable-->
+                {{item.units}}
+              </td>
+              <td>{{item.unitPrice*item.units | currency}}</td>
+              <td class="text-center">
+                <button>
+                  <span class="glyphicon glyphicon-remove"></span>
+                </button>
+              </td>
+            </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="pull-right">
+            <span class="text-info">Total:  {{basket.getTotalPrice() | currency}}</span>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="well well-sm">
+          <div class="btn-group">
+            <button [disabled]="basket.basketItems.length == 0"
+                    (click)="checkoutOrder()"
+                    class="btn btn-primary btn-sm">
+              Proceed to order
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

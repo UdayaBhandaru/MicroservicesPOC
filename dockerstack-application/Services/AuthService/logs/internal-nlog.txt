@@ -1,0 +1,549 @@
+2018-07-12 17:19:38.4704 Warn Error when setting property 'Name' on 'File Target[(unnamed)]' Exception: System.NotSupportedException: Specified method is not supported.
+   at System.Reflection.RuntimeMethodInfo.ThrowNoInvokeException()
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at NLog.Internal.PropertyHelper.TryImplicitConversion(Type resultType, String value, Object& result)
+   at NLog.Internal.PropertyHelper.SetPropertyFromString(Object obj, String propertyName, String value, ConfigurationItemFactory configurationItemFactory)
+2018-07-12 17:19:38.5138 Warn Error when setting 'allfile' on attibute 'name'
+2018-07-12 17:19:38.5320 Error Parsing configuration from D:\Code\Focis\Agility.Focis.IdentityServer\nlog.config failed. Exception: NLog.NLogConfigurationException: Exception when parsing D:\Code\Focis\Agility.Focis.IdentityServer\nlog.config.  ---> NLog.NLogConfigurationException: Error when setting property 'Name' on File Target[(unnamed)] ---> System.NotSupportedException: Specified method is not supported.
+   at System.Reflection.RuntimeMethodInfo.ThrowNoInvokeException()
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at NLog.Internal.PropertyHelper.TryImplicitConversion(Type resultType, String value, Object& result)
+   at NLog.Internal.PropertyHelper.SetPropertyFromString(Object obj, String propertyName, String value, ConfigurationItemFactory configurationItemFactory)
+   --- End of inner exception stack trace ---
+   at NLog.Internal.PropertyHelper.SetPropertyFromString(Object obj, String propertyName, String value, ConfigurationItemFactory configurationItemFactory)
+   at NLog.Config.XmlLoggingConfiguration.ConfigureObjectFromAttributes(Object targetObject, NLogXmlElement element, Boolean ignoreType)
+   at NLog.Config.XmlLoggingConfiguration.ParseTargetElement(Target target, NLogXmlElement targetElement, Dictionary`2 typeNameToDefaultTargetParameters)
+   at NLog.Config.XmlLoggingConfiguration.ParseTargetsElement(NLogXmlElement targetsElement)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(NLogXmlElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2018-07-12 18:12:09.6260 Warn Error when setting property 'Name' on 'File Target[(unnamed)]' Exception: System.NotSupportedException: Specified method is not supported.
+   at System.Reflection.RuntimeMethodInfo.ThrowNoInvokeException()
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at NLog.Internal.PropertyHelper.TryImplicitConversion(Type resultType, String value, Object& result)
+   at NLog.Internal.PropertyHelper.SetPropertyFromString(Object obj, String propertyName, String value, ConfigurationItemFactory configurationItemFactory)
+2018-07-12 18:12:09.7242 Warn Error when setting 'allfile' on attibute 'name'
+2018-07-12 18:12:09.7319 Error Parsing configuration from D:\Code\Focis\Agility.Focis.IdentityServer\nlog.config failed. Exception: NLog.NLogConfigurationException: Exception when parsing D:\Code\Focis\Agility.Focis.IdentityServer\nlog.config.  ---> NLog.NLogConfigurationException: Error when setting property 'Name' on File Target[(unnamed)] ---> System.NotSupportedException: Specified method is not supported.
+   at System.Reflection.RuntimeMethodInfo.ThrowNoInvokeException()
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at NLog.Internal.PropertyHelper.TryImplicitConversion(Type resultType, String value, Object& result)
+   at NLog.Internal.PropertyHelper.SetPropertyFromString(Object obj, String propertyName, String value, ConfigurationItemFactory configurationItemFactory)
+   --- End of inner exception stack trace ---
+   at NLog.Internal.PropertyHelper.SetPropertyFromString(Object obj, String propertyName, String value, ConfigurationItemFactory configurationItemFactory)
+   at NLog.Config.XmlLoggingConfiguration.ConfigureObjectFromAttributes(Object targetObject, NLogXmlElement element, Boolean ignoreType)
+   at NLog.Config.XmlLoggingConfiguration.ParseTargetElement(Target target, NLogXmlElement targetElement, Dictionary`2 typeNameToDefaultTargetParameters)
+   at NLog.Config.XmlLoggingConfiguration.ParseTargetsElement(NLogXmlElement targetsElement)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(NLogXmlElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2018-07-12 18:27:38.2919 Warn Error when setting property 'Name' on 'File Target[(unnamed)]' Exception: System.NotSupportedException: Specified method is not supported.
+   at System.Reflection.RuntimeMethodInfo.ThrowNoInvokeException()
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at NLog.Internal.PropertyHelper.TryImplicitConversion(Type resultType, String value, Object& result)
+   at NLog.Internal.PropertyHelper.SetPropertyFromString(Object obj, String propertyName, String value, ConfigurationItemFactory configurationItemFactory)
+2018-07-12 18:27:38.3615 Warn Error when setting 'allfile' on attibute 'name'
+2018-07-12 18:27:38.3615 Error Parsing configuration from D:\Code\Focis\Agility.Focis.IdentityServer\nlog.config failed. Exception: NLog.NLogConfigurationException: Exception when parsing D:\Code\Focis\Agility.Focis.IdentityServer\nlog.config.  ---> NLog.NLogConfigurationException: Error when setting property 'Name' on File Target[(unnamed)] ---> System.NotSupportedException: Specified method is not supported.
+   at System.Reflection.RuntimeMethodInfo.ThrowNoInvokeException()
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at NLog.Internal.PropertyHelper.TryImplicitConversion(Type resultType, String value, Object& result)
+   at NLog.Internal.PropertyHelper.SetPropertyFromString(Object obj, String propertyName, String value, ConfigurationItemFactory configurationItemFactory)
+   --- End of inner exception stack trace ---
+   at NLog.Internal.PropertyHelper.SetPropertyFromString(Object obj, String propertyName, String value, ConfigurationItemFactory configurationItemFactory)
+   at NLog.Config.XmlLoggingConfiguration.ConfigureObjectFromAttributes(Object targetObject, NLogXmlElement element, Boolean ignoreType)
+   at NLog.Config.XmlLoggingConfiguration.ParseTargetElement(Target target, NLogXmlElement targetElement, Dictionary`2 typeNameToDefaultTargetParameters)
+   at NLog.Config.XmlLoggingConfiguration.ParseTargetsElement(NLogXmlElement targetsElement)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(NLogXmlElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2018-07-12 19:18:07.9755 Warn Error when setting property 'Name' on 'File Target[(unnamed)]' Exception: System.NotSupportedException: Specified method is not supported.
+   at System.Reflection.RuntimeMethodInfo.ThrowNoInvokeException()
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at NLog.Internal.PropertyHelper.TryImplicitConversion(Type resultType, String value, Object& result)
+   at NLog.Internal.PropertyHelper.SetPropertyFromString(Object obj, String propertyName, String value, ConfigurationItemFactory configurationItemFactory)
+2018-07-12 19:18:08.0211 Warn Error when setting 'allfile' on attibute 'name'
+2018-07-12 19:18:08.0211 Error Parsing configuration from D:\Code\Focis\Agility.Focis.IdentityServer\nlog.config failed. Exception: NLog.NLogConfigurationException: Exception when parsing D:\Code\Focis\Agility.Focis.IdentityServer\nlog.config.  ---> NLog.NLogConfigurationException: Error when setting property 'Name' on File Target[(unnamed)] ---> System.NotSupportedException: Specified method is not supported.
+   at System.Reflection.RuntimeMethodInfo.ThrowNoInvokeException()
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at NLog.Internal.PropertyHelper.TryImplicitConversion(Type resultType, String value, Object& result)
+   at NLog.Internal.PropertyHelper.SetPropertyFromString(Object obj, String propertyName, String value, ConfigurationItemFactory configurationItemFactory)
+   --- End of inner exception stack trace ---
+   at NLog.Internal.PropertyHelper.SetPropertyFromString(Object obj, String propertyName, String value, ConfigurationItemFactory configurationItemFactory)
+   at NLog.Config.XmlLoggingConfiguration.ConfigureObjectFromAttributes(Object targetObject, NLogXmlElement element, Boolean ignoreType)
+   at NLog.Config.XmlLoggingConfiguration.ParseTargetElement(Target target, NLogXmlElement targetElement, Dictionary`2 typeNameToDefaultTargetParameters)
+   at NLog.Config.XmlLoggingConfiguration.ParseTargetsElement(NLogXmlElement targetsElement)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(NLogXmlElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2018-07-12 19:34:00.2302 Warn Error when setting property 'Name' on 'File Target[(unnamed)]' Exception: System.NotSupportedException: Specified method is not supported.
+   at System.Reflection.RuntimeMethodInfo.ThrowNoInvokeException()
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at NLog.Internal.PropertyHelper.TryImplicitConversion(Type resultType, String value, Object& result)
+   at NLog.Internal.PropertyHelper.SetPropertyFromString(Object obj, String propertyName, String value, ConfigurationItemFactory configurationItemFactory)
+2018-07-12 19:34:00.2438 Warn Error when setting 'allfile' on attibute 'name'
+2018-07-12 19:34:00.2521 Error Parsing configuration from D:\Code\Focis\Agility.Focis.IdentityServer\nlog.config failed. Exception: NLog.NLogConfigurationException: Exception when parsing D:\Code\Focis\Agility.Focis.IdentityServer\nlog.config.  ---> NLog.NLogConfigurationException: Error when setting property 'Name' on File Target[(unnamed)] ---> System.NotSupportedException: Specified method is not supported.
+   at System.Reflection.RuntimeMethodInfo.ThrowNoInvokeException()
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at NLog.Internal.PropertyHelper.TryImplicitConversion(Type resultType, String value, Object& result)
+   at NLog.Internal.PropertyHelper.SetPropertyFromString(Object obj, String propertyName, String value, ConfigurationItemFactory configurationItemFactory)
+   --- End of inner exception stack trace ---
+   at NLog.Internal.PropertyHelper.SetPropertyFromString(Object obj, String propertyName, String value, ConfigurationItemFactory configurationItemFactory)
+   at NLog.Config.XmlLoggingConfiguration.ConfigureObjectFromAttributes(Object targetObject, NLogXmlElement element, Boolean ignoreType)
+   at NLog.Config.XmlLoggingConfiguration.ParseTargetElement(Target target, NLogXmlElement targetElement, Dictionary`2 typeNameToDefaultTargetParameters)
+   at NLog.Config.XmlLoggingConfiguration.ParseTargetsElement(NLogXmlElement targetsElement)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(NLogXmlElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2018-07-17 11:16:54.8610 Warn Error when setting property 'Name' on 'File Target[(unnamed)]' Exception: System.NotSupportedException: Specified method is not supported.
+   at System.Reflection.RuntimeMethodInfo.ThrowNoInvokeException()
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at NLog.Internal.PropertyHelper.TryImplicitConversion(Type resultType, String value, Object& result)
+   at NLog.Internal.PropertyHelper.SetPropertyFromString(Object obj, String propertyName, String value, ConfigurationItemFactory configurationItemFactory)
+2018-07-17 11:16:54.9776 Warn Error when setting 'allfile' on attibute 'name'
+2018-07-17 11:16:54.9946 Error Parsing configuration from D:\Code\Focis\Agility.Focis.IdentityServer\nlog.config failed. Exception: NLog.NLogConfigurationException: Exception when parsing D:\Code\Focis\Agility.Focis.IdentityServer\nlog.config.  ---> NLog.NLogConfigurationException: Error when setting property 'Name' on File Target[(unnamed)] ---> System.NotSupportedException: Specified method is not supported.
+   at System.Reflection.RuntimeMethodInfo.ThrowNoInvokeException()
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at NLog.Internal.PropertyHelper.TryImplicitConversion(Type resultType, String value, Object& result)
+   at NLog.Internal.PropertyHelper.SetPropertyFromString(Object obj, String propertyName, String value, ConfigurationItemFactory configurationItemFactory)
+   --- End of inner exception stack trace ---
+   at NLog.Internal.PropertyHelper.SetPropertyFromString(Object obj, String propertyName, String value, ConfigurationItemFactory configurationItemFactory)
+   at NLog.Config.XmlLoggingConfiguration.ConfigureObjectFromAttributes(Object targetObject, NLogXmlElement element, Boolean ignoreType)
+   at NLog.Config.XmlLoggingConfiguration.ParseTargetElement(Target target, NLogXmlElement targetElement, Dictionary`2 typeNameToDefaultTargetParameters)
+   at NLog.Config.XmlLoggingConfiguration.ParseTargetsElement(NLogXmlElement targetsElement)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(NLogXmlElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2018-07-17 11:38:07.3597 Warn Error when setting property 'Name' on 'File Target[(unnamed)]' Exception: System.NotSupportedException: Specified method is not supported.
+   at System.Reflection.RuntimeMethodInfo.ThrowNoInvokeException()
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at NLog.Internal.PropertyHelper.TryImplicitConversion(Type resultType, String value, Object& result)
+   at NLog.Internal.PropertyHelper.SetPropertyFromString(Object obj, String propertyName, String value, ConfigurationItemFactory configurationItemFactory)
+2018-07-17 11:38:07.4701 Warn Error when setting 'allfile' on attibute 'name'
+2018-07-17 11:38:07.5046 Error Parsing configuration from D:\Code\Focis\Agility.Focis.IdentityServer\nlog.config failed. Exception: NLog.NLogConfigurationException: Exception when parsing D:\Code\Focis\Agility.Focis.IdentityServer\nlog.config.  ---> NLog.NLogConfigurationException: Error when setting property 'Name' on File Target[(unnamed)] ---> System.NotSupportedException: Specified method is not supported.
+   at System.Reflection.RuntimeMethodInfo.ThrowNoInvokeException()
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at NLog.Internal.PropertyHelper.TryImplicitConversion(Type resultType, String value, Object& result)
+   at NLog.Internal.PropertyHelper.SetPropertyFromString(Object obj, String propertyName, String value, ConfigurationItemFactory configurationItemFactory)
+   --- End of inner exception stack trace ---
+   at NLog.Internal.PropertyHelper.SetPropertyFromString(Object obj, String propertyName, String value, ConfigurationItemFactory configurationItemFactory)
+   at NLog.Config.XmlLoggingConfiguration.ConfigureObjectFromAttributes(Object targetObject, NLogXmlElement element, Boolean ignoreType)
+   at NLog.Config.XmlLoggingConfiguration.ParseTargetElement(Target target, NLogXmlElement targetElement, Dictionary`2 typeNameToDefaultTargetParameters)
+   at NLog.Config.XmlLoggingConfiguration.ParseTargetsElement(NLogXmlElement targetsElement)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(NLogXmlElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2018-07-17 14:31:06.0002 Warn Error when setting property 'Name' on 'File Target[(unnamed)]' Exception: System.NotSupportedException: Specified method is not supported.
+   at System.Reflection.RuntimeMethodInfo.ThrowNoInvokeException()
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at NLog.Internal.PropertyHelper.TryImplicitConversion(Type resultType, String value, Object& result)
+   at NLog.Internal.PropertyHelper.SetPropertyFromString(Object obj, String propertyName, String value, ConfigurationItemFactory configurationItemFactory)
+2018-07-17 14:31:06.5246 Warn Error when setting 'allfile' on attibute 'name'
+2018-07-17 14:31:06.7518 Error Parsing configuration from D:\Code\Focis\Agility.Focis.IdentityServer\nlog.config failed. Exception: NLog.NLogConfigurationException: Exception when parsing D:\Code\Focis\Agility.Focis.IdentityServer\nlog.config.  ---> NLog.NLogConfigurationException: Error when setting property 'Name' on File Target[(unnamed)] ---> System.NotSupportedException: Specified method is not supported.
+   at System.Reflection.RuntimeMethodInfo.ThrowNoInvokeException()
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at NLog.Internal.PropertyHelper.TryImplicitConversion(Type resultType, String value, Object& result)
+   at NLog.Internal.PropertyHelper.SetPropertyFromString(Object obj, String propertyName, String value, ConfigurationItemFactory configurationItemFactory)
+   --- End of inner exception stack trace ---
+   at NLog.Internal.PropertyHelper.SetPropertyFromString(Object obj, String propertyName, String value, ConfigurationItemFactory configurationItemFactory)
+   at NLog.Config.XmlLoggingConfiguration.ConfigureObjectFromAttributes(Object targetObject, NLogXmlElement element, Boolean ignoreType)
+   at NLog.Config.XmlLoggingConfiguration.ParseTargetElement(Target target, NLogXmlElement targetElement, Dictionary`2 typeNameToDefaultTargetParameters)
+   at NLog.Config.XmlLoggingConfiguration.ParseTargetsElement(NLogXmlElement targetsElement)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(NLogXmlElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2018-07-17 15:00:36.2781 Warn Error when setting property 'Name' on 'File Target[(unnamed)]' Exception: System.NotSupportedException: Specified method is not supported.
+   at System.Reflection.RuntimeMethodInfo.ThrowNoInvokeException()
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at NLog.Internal.PropertyHelper.TryImplicitConversion(Type resultType, String value, Object& result)
+   at NLog.Internal.PropertyHelper.SetPropertyFromString(Object obj, String propertyName, String value, ConfigurationItemFactory configurationItemFactory)
+2018-07-17 15:00:36.3078 Warn Error when setting 'allfile' on attibute 'name'
+2018-07-17 15:00:36.3227 Error Parsing configuration from D:\Code\Focis\Agility.Focis.IdentityServer\nlog.config failed. Exception: NLog.NLogConfigurationException: Exception when parsing D:\Code\Focis\Agility.Focis.IdentityServer\nlog.config.  ---> NLog.NLogConfigurationException: Error when setting property 'Name' on File Target[(unnamed)] ---> System.NotSupportedException: Specified method is not supported.
+   at System.Reflection.RuntimeMethodInfo.ThrowNoInvokeException()
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at NLog.Internal.PropertyHelper.TryImplicitConversion(Type resultType, String value, Object& result)
+   at NLog.Internal.PropertyHelper.SetPropertyFromString(Object obj, String propertyName, String value, ConfigurationItemFactory configurationItemFactory)
+   --- End of inner exception stack trace ---
+   at NLog.Internal.PropertyHelper.SetPropertyFromString(Object obj, String propertyName, String value, ConfigurationItemFactory configurationItemFactory)
+   at NLog.Config.XmlLoggingConfiguration.ConfigureObjectFromAttributes(Object targetObject, NLogXmlElement element, Boolean ignoreType)
+   at NLog.Config.XmlLoggingConfiguration.ParseTargetElement(Target target, NLogXmlElement targetElement, Dictionary`2 typeNameToDefaultTargetParameters)
+   at NLog.Config.XmlLoggingConfiguration.ParseTargetsElement(NLogXmlElement targetsElement)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(NLogXmlElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2018-07-17 15:52:04.0334 Warn Error when setting property 'Name' on 'File Target[(unnamed)]' Exception: System.NotSupportedException: Specified method is not supported.
+   at System.Reflection.RuntimeMethodInfo.ThrowNoInvokeException()
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at NLog.Internal.PropertyHelper.TryImplicitConversion(Type resultType, String value, Object& result)
+   at NLog.Internal.PropertyHelper.SetPropertyFromString(Object obj, String propertyName, String value, ConfigurationItemFactory configurationItemFactory)
+2018-07-17 15:52:04.0649 Warn Error when setting 'allfile' on attibute 'name'
+2018-07-17 15:52:04.1238 Error Parsing configuration from D:\Code\Focis\Agility.Focis.IdentityServer\nlog.config failed. Exception: NLog.NLogConfigurationException: Exception when parsing D:\Code\Focis\Agility.Focis.IdentityServer\nlog.config.  ---> NLog.NLogConfigurationException: Error when setting property 'Name' on File Target[(unnamed)] ---> System.NotSupportedException: Specified method is not supported.
+   at System.Reflection.RuntimeMethodInfo.ThrowNoInvokeException()
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at NLog.Internal.PropertyHelper.TryImplicitConversion(Type resultType, String value, Object& result)
+   at NLog.Internal.PropertyHelper.SetPropertyFromString(Object obj, String propertyName, String value, ConfigurationItemFactory configurationItemFactory)
+   --- End of inner exception stack trace ---
+   at NLog.Internal.PropertyHelper.SetPropertyFromString(Object obj, String propertyName, String value, ConfigurationItemFactory configurationItemFactory)
+   at NLog.Config.XmlLoggingConfiguration.ConfigureObjectFromAttributes(Object targetObject, NLogXmlElement element, Boolean ignoreType)
+   at NLog.Config.XmlLoggingConfiguration.ParseTargetElement(Target target, NLogXmlElement targetElement, Dictionary`2 typeNameToDefaultTargetParameters)
+   at NLog.Config.XmlLoggingConfiguration.ParseTargetsElement(NLogXmlElement targetsElement)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(NLogXmlElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2018-07-17 15:54:48.7728 Warn Error when setting property 'Name' on 'File Target[(unnamed)]' Exception: System.NotSupportedException: Specified method is not supported.
+   at System.Reflection.RuntimeMethodInfo.ThrowNoInvokeException()
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at NLog.Internal.PropertyHelper.TryImplicitConversion(Type resultType, String value, Object& result)
+   at NLog.Internal.PropertyHelper.SetPropertyFromString(Object obj, String propertyName, String value, ConfigurationItemFactory configurationItemFactory)
+2018-07-17 15:54:48.8050 Warn Error when setting 'allfile' on attibute 'name'
+2018-07-17 15:54:48.8547 Error Parsing configuration from D:\Code\Focis\Agility.Focis.IdentityServer\nlog.config failed. Exception: NLog.NLogConfigurationException: Exception when parsing D:\Code\Focis\Agility.Focis.IdentityServer\nlog.config.  ---> NLog.NLogConfigurationException: Error when setting property 'Name' on File Target[(unnamed)] ---> System.NotSupportedException: Specified method is not supported.
+   at System.Reflection.RuntimeMethodInfo.ThrowNoInvokeException()
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at NLog.Internal.PropertyHelper.TryImplicitConversion(Type resultType, String value, Object& result)
+   at NLog.Internal.PropertyHelper.SetPropertyFromString(Object obj, String propertyName, String value, ConfigurationItemFactory configurationItemFactory)
+   --- End of inner exception stack trace ---
+   at NLog.Internal.PropertyHelper.SetPropertyFromString(Object obj, String propertyName, String value, ConfigurationItemFactory configurationItemFactory)
+   at NLog.Config.XmlLoggingConfiguration.ConfigureObjectFromAttributes(Object targetObject, NLogXmlElement element, Boolean ignoreType)
+   at NLog.Config.XmlLoggingConfiguration.ParseTargetElement(Target target, NLogXmlElement targetElement, Dictionary`2 typeNameToDefaultTargetParameters)
+   at NLog.Config.XmlLoggingConfiguration.ParseTargetsElement(NLogXmlElement targetsElement)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(NLogXmlElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2018-07-17 16:15:09.8982 Warn Error when setting property 'Name' on 'File Target[(unnamed)]' Exception: System.NotSupportedException: Specified method is not supported.
+   at System.Reflection.RuntimeMethodInfo.ThrowNoInvokeException()
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at NLog.Internal.PropertyHelper.TryImplicitConversion(Type resultType, String value, Object& result)
+   at NLog.Internal.PropertyHelper.SetPropertyFromString(Object obj, String propertyName, String value, ConfigurationItemFactory configurationItemFactory)
+2018-07-17 16:15:10.0804 Warn Error when setting 'allfile' on attibute 'name'
+2018-07-17 16:15:10.0896 Error Parsing configuration from D:\Code\Focis\Agility.Focis.IdentityServer\nlog.config failed. Exception: NLog.NLogConfigurationException: Exception when parsing D:\Code\Focis\Agility.Focis.IdentityServer\nlog.config.  ---> NLog.NLogConfigurationException: Error when setting property 'Name' on File Target[(unnamed)] ---> System.NotSupportedException: Specified method is not supported.
+   at System.Reflection.RuntimeMethodInfo.ThrowNoInvokeException()
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at NLog.Internal.PropertyHelper.TryImplicitConversion(Type resultType, String value, Object& result)
+   at NLog.Internal.PropertyHelper.SetPropertyFromString(Object obj, String propertyName, String value, ConfigurationItemFactory configurationItemFactory)
+   --- End of inner exception stack trace ---
+   at NLog.Internal.PropertyHelper.SetPropertyFromString(Object obj, String propertyName, String value, ConfigurationItemFactory configurationItemFactory)
+   at NLog.Config.XmlLoggingConfiguration.ConfigureObjectFromAttributes(Object targetObject, NLogXmlElement element, Boolean ignoreType)
+   at NLog.Config.XmlLoggingConfiguration.ParseTargetElement(Target target, NLogXmlElement targetElement, Dictionary`2 typeNameToDefaultTargetParameters)
+   at NLog.Config.XmlLoggingConfiguration.ParseTargetsElement(NLogXmlElement targetsElement)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(NLogXmlElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2018-07-17 16:18:12.7766 Warn Error when setting property 'Name' on 'File Target[(unnamed)]' Exception: System.NotSupportedException: Specified method is not supported.
+   at System.Reflection.RuntimeMethodInfo.ThrowNoInvokeException()
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at NLog.Internal.PropertyHelper.TryImplicitConversion(Type resultType, String value, Object& result)
+   at NLog.Internal.PropertyHelper.SetPropertyFromString(Object obj, String propertyName, String value, ConfigurationItemFactory configurationItemFactory)
+2018-07-17 16:18:12.8152 Warn Error when setting 'allfile' on attibute 'name'
+2018-07-17 16:18:12.8812 Error Parsing configuration from D:\Code\Focis\Agility.Focis.IdentityServer\nlog.config failed. Exception: NLog.NLogConfigurationException: Exception when parsing D:\Code\Focis\Agility.Focis.IdentityServer\nlog.config.  ---> NLog.NLogConfigurationException: Error when setting property 'Name' on File Target[(unnamed)] ---> System.NotSupportedException: Specified method is not supported.
+   at System.Reflection.RuntimeMethodInfo.ThrowNoInvokeException()
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at NLog.Internal.PropertyHelper.TryImplicitConversion(Type resultType, String value, Object& result)
+   at NLog.Internal.PropertyHelper.SetPropertyFromString(Object obj, String propertyName, String value, ConfigurationItemFactory configurationItemFactory)
+   --- End of inner exception stack trace ---
+   at NLog.Internal.PropertyHelper.SetPropertyFromString(Object obj, String propertyName, String value, ConfigurationItemFactory configurationItemFactory)
+   at NLog.Config.XmlLoggingConfiguration.ConfigureObjectFromAttributes(Object targetObject, NLogXmlElement element, Boolean ignoreType)
+   at NLog.Config.XmlLoggingConfiguration.ParseTargetElement(Target target, NLogXmlElement targetElement, Dictionary`2 typeNameToDefaultTargetParameters)
+   at NLog.Config.XmlLoggingConfiguration.ParseTargetsElement(NLogXmlElement targetsElement)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(NLogXmlElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2018-07-17 16:26:56.3454 Warn Error when setting property 'Name' on 'File Target[(unnamed)]' Exception: System.NotSupportedException: Specified method is not supported.
+   at System.Reflection.RuntimeMethodInfo.ThrowNoInvokeException()
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at NLog.Internal.PropertyHelper.TryImplicitConversion(Type resultType, String value, Object& result)
+   at NLog.Internal.PropertyHelper.SetPropertyFromString(Object obj, String propertyName, String value, ConfigurationItemFactory configurationItemFactory)
+2018-07-17 16:26:56.7325 Warn Error when setting 'allfile' on attibute 'name'
+2018-07-17 16:26:56.7325 Error Parsing configuration from D:\Code\Focis\Agility.Focis.IdentityServer\nlog.config failed. Exception: NLog.NLogConfigurationException: Exception when parsing D:\Code\Focis\Agility.Focis.IdentityServer\nlog.config.  ---> NLog.NLogConfigurationException: Error when setting property 'Name' on File Target[(unnamed)] ---> System.NotSupportedException: Specified method is not supported.
+   at System.Reflection.RuntimeMethodInfo.ThrowNoInvokeException()
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at NLog.Internal.PropertyHelper.TryImplicitConversion(Type resultType, String value, Object& result)
+   at NLog.Internal.PropertyHelper.SetPropertyFromString(Object obj, String propertyName, String value, ConfigurationItemFactory configurationItemFactory)
+   --- End of inner exception stack trace ---
+   at NLog.Internal.PropertyHelper.SetPropertyFromString(Object obj, String propertyName, String value, ConfigurationItemFactory configurationItemFactory)
+   at NLog.Config.XmlLoggingConfiguration.ConfigureObjectFromAttributes(Object targetObject, NLogXmlElement element, Boolean ignoreType)
+   at NLog.Config.XmlLoggingConfiguration.ParseTargetElement(Target target, NLogXmlElement targetElement, Dictionary`2 typeNameToDefaultTargetParameters)
+   at NLog.Config.XmlLoggingConfiguration.ParseTargetsElement(NLogXmlElement targetsElement)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(NLogXmlElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2018-07-27 14:54:51.0542 Error Error parsing layout appsetting will be ignored. Exception: System.ArgumentException: LayoutRenderer cannot be found: 'appsetting'
+   at NLog.Config.Factory`2.CreateInstance(String name)
+   at NLog.Layouts.LayoutParser.GetLayoutRenderer(ConfigurationItemFactory configurationItemFactory, String name)
+2018-07-27 14:54:51.1045 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2018-07-27 14:54:51.1125 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: database
+2018-07-27 14:54:53.7341 Error Error parsing layout appsetting will be ignored. Exception: System.ArgumentException: LayoutRenderer cannot be found: 'appsetting'
+   at NLog.Config.Factory`2.CreateInstance(String name)
+   at NLog.Layouts.LayoutParser.GetLayoutRenderer(ConfigurationItemFactory configurationItemFactory, String name)
+2018-07-27 14:54:53.7975 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2018-07-27 14:54:53.7975 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: database
+2018-07-27 14:56:37.8026 Error Error parsing layout appsetting will be ignored. Exception: System.ArgumentException: LayoutRenderer cannot be found: 'appsetting'
+   at NLog.Config.Factory`2.CreateInstance(String name)
+   at NLog.Layouts.LayoutParser.GetLayoutRenderer(ConfigurationItemFactory configurationItemFactory, String name)
+2018-07-27 14:56:37.8837 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2018-07-27 14:56:37.9033 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: database
+2018-07-27 15:00:02.0851 Error Error parsing layout appsetting will be ignored. Exception: System.ArgumentException: LayoutRenderer cannot be found: 'appsetting'
+   at NLog.Config.Factory`2.CreateInstance(String name)
+   at NLog.Layouts.LayoutParser.GetLayoutRenderer(ConfigurationItemFactory configurationItemFactory, String name)
+2018-07-27 15:00:02.1547 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2018-07-27 15:00:02.1673 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: database
+2018-07-27 15:09:22.8376 Error Error parsing layout appsetting will be ignored. Exception: System.ArgumentException: LayoutRenderer cannot be found: 'appsetting'
+   at NLog.Config.Factory`2.CreateInstance(String name)
+   at NLog.Layouts.LayoutParser.GetLayoutRenderer(ConfigurationItemFactory configurationItemFactory, String name)
+2018-07-27 15:09:22.8888 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2018-07-27 15:09:22.9018 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: database
+2018-07-27 15:11:37.3690 Error Error parsing layout appsetting will be ignored. Exception: System.ArgumentException: LayoutRenderer cannot be found: 'appsetting'
+   at NLog.Config.Factory`2.CreateInstance(String name)
+   at NLog.Layouts.LayoutParser.GetLayoutRenderer(ConfigurationItemFactory configurationItemFactory, String name)
+2018-07-27 15:11:37.4368 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2018-07-27 15:11:37.4529 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: database
+2018-07-27 15:12:40.4423 Error Error parsing layout appsetting will be ignored. Exception: System.ArgumentException: LayoutRenderer cannot be found: 'appsetting'
+   at NLog.Config.Factory`2.CreateInstance(String name)
+   at NLog.Layouts.LayoutParser.GetLayoutRenderer(ConfigurationItemFactory configurationItemFactory, String name)
+2018-07-27 15:12:40.5093 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2018-07-27 15:12:40.5093 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: database
+2018-07-27 15:13:30.4367 Error Error parsing layout appsetting will be ignored. Exception: System.ArgumentException: LayoutRenderer cannot be found: 'appsetting'
+   at NLog.Config.Factory`2.CreateInstance(String name)
+   at NLog.Layouts.LayoutParser.GetLayoutRenderer(ConfigurationItemFactory configurationItemFactory, String name)
+2018-07-27 15:13:30.5016 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2018-07-27 15:13:30.5118 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: database
+2018-08-02 11:21:12.5881 Error Error parsing layout appsetting will be ignored. Exception: System.ArgumentException: LayoutRenderer cannot be found: 'appsetting'
+   at NLog.Config.Factory`2.CreateInstance(String name)
+   at NLog.Layouts.LayoutParser.GetLayoutRenderer(ConfigurationItemFactory configurationItemFactory, String name)
+2018-08-02 11:21:12.6597 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2018-08-02 11:21:12.6692 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: database
+2018-08-02 11:26:31.9343 Error Error parsing layout appsetting will be ignored. Exception: System.ArgumentException: LayoutRenderer cannot be found: 'appsetting'
+   at NLog.Config.Factory`2.CreateInstance(String name)
+   at NLog.Layouts.LayoutParser.GetLayoutRenderer(ConfigurationItemFactory configurationItemFactory, String name)
+2018-08-02 11:26:31.9966 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2018-08-02 11:26:31.9966 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: database
+2018-08-02 11:26:59.0068 Error Error parsing layout appsetting will be ignored. Exception: System.ArgumentException: LayoutRenderer cannot be found: 'appsetting'
+   at NLog.Config.Factory`2.CreateInstance(String name)
+   at NLog.Layouts.LayoutParser.GetLayoutRenderer(ConfigurationItemFactory configurationItemFactory, String name)
+2018-08-02 11:26:59.0630 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2018-08-02 11:26:59.0715 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: database
+2018-08-02 11:33:33.7320 Error Error parsing layout appsetting will be ignored. Exception: System.ArgumentException: LayoutRenderer cannot be found: 'appsetting'
+   at NLog.Config.Factory`2.CreateInstance(String name)
+   at NLog.Layouts.LayoutParser.GetLayoutRenderer(ConfigurationItemFactory configurationItemFactory, String name)
+2018-08-02 11:33:33.7840 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2018-08-02 11:33:33.7840 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: database
+2018-08-02 20:42:16.2554 Error Error parsing layout appsetting will be ignored. Exception: System.ArgumentException: LayoutRenderer cannot be found: 'appsetting'
+   at NLog.Config.Factory`2.CreateInstance(String name)
+   at NLog.Layouts.LayoutParser.GetLayoutRenderer(ConfigurationItemFactory configurationItemFactory, String name)
+2018-08-02 20:42:16.3433 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2018-08-02 20:42:16.3620 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: database
+2018-08-03 17:26:52.3715 Error Error parsing layout appsetting will be ignored. Exception: System.ArgumentException: LayoutRenderer cannot be found: 'appsetting'
+   at NLog.Config.Factory`2.CreateInstance(String name)
+   at NLog.Layouts.LayoutParser.GetLayoutRenderer(ConfigurationItemFactory configurationItemFactory, String name)
+2018-08-03 17:26:52.4718 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2018-08-03 17:26:52.5155 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: database
+2018-08-03 17:43:28.2230 Error Error parsing layout appsetting will be ignored. Exception: System.ArgumentException: LayoutRenderer cannot be found: 'appsetting'
+   at NLog.Config.Factory`2.CreateInstance(String name)
+   at NLog.Layouts.LayoutParser.GetLayoutRenderer(ConfigurationItemFactory configurationItemFactory, String name)
+2018-08-03 17:43:28.3485 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2018-08-03 17:43:28.3485 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: database
+2018-08-03 17:53:08.2043 Error Error parsing layout appsetting will be ignored. Exception: System.ArgumentException: LayoutRenderer cannot be found: 'appsetting'
+   at NLog.Config.Factory`2.CreateInstance(String name)
+   at NLog.Layouts.LayoutParser.GetLayoutRenderer(ConfigurationItemFactory configurationItemFactory, String name)
+2018-08-03 17:53:08.2826 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2018-08-03 17:53:08.2826 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: database
+2018-08-03 17:53:38.8097 Error Error parsing layout appsetting will be ignored. Exception: System.ArgumentException: LayoutRenderer cannot be found: 'appsetting'
+   at NLog.Config.Factory`2.CreateInstance(String name)
+   at NLog.Layouts.LayoutParser.GetLayoutRenderer(ConfigurationItemFactory configurationItemFactory, String name)
+2018-08-03 17:53:38.8693 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2018-08-03 17:53:38.8778 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: database
+2018-08-03 18:02:16.8292 Error Error parsing layout appsetting will be ignored. Exception: System.ArgumentException: LayoutRenderer cannot be found: 'appsetting'
+   at NLog.Config.Factory`2.CreateInstance(String name)
+   at NLog.Layouts.LayoutParser.GetLayoutRenderer(ConfigurationItemFactory configurationItemFactory, String name)
+2018-08-03 18:02:16.8961 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2018-08-03 18:02:16.9323 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: database
+2018-08-03 18:06:15.6674 Error Error parsing layout appsetting will be ignored. Exception: System.ArgumentException: LayoutRenderer cannot be found: 'appsetting'
+   at NLog.Config.Factory`2.CreateInstance(String name)
+   at NLog.Layouts.LayoutParser.GetLayoutRenderer(ConfigurationItemFactory configurationItemFactory, String name)
+2018-08-03 18:06:15.7281 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2018-08-03 18:06:15.7558 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: database
+2018-08-06 16:01:34.2856 Error Error parsing layout appsetting will be ignored. Exception: System.ArgumentException: LayoutRenderer cannot be found: 'appsetting'
+   at NLog.Config.Factory`2.CreateInstance(String name)
+   at NLog.Layouts.LayoutParser.GetLayoutRenderer(ConfigurationItemFactory configurationItemFactory, String name)
+2018-08-06 16:01:34.5013 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2018-08-06 16:01:34.5098 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: database
+2018-08-06 16:02:39.0660 Error Error parsing layout appsetting will be ignored. Exception: System.ArgumentException: LayoutRenderer cannot be found: 'appsetting'
+   at NLog.Config.Factory`2.CreateInstance(String name)
+   at NLog.Layouts.LayoutParser.GetLayoutRenderer(ConfigurationItemFactory configurationItemFactory, String name)
+2018-08-06 16:02:39.2598 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2018-08-06 16:02:39.2698 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: database
+2018-08-06 16:22:47.2494 Error Error parsing layout appsetting will be ignored. Exception: System.ArgumentException: LayoutRenderer cannot be found: 'appsetting'
+   at NLog.Config.Factory`2.CreateInstance(String name)
+   at NLog.Layouts.LayoutParser.GetLayoutRenderer(ConfigurationItemFactory configurationItemFactory, String name)
+2018-08-06 16:22:47.4653 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2018-08-06 16:22:47.4653 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: database
+2018-08-06 16:31:49.9290 Error Error parsing layout appsetting will be ignored. Exception: System.ArgumentException: LayoutRenderer cannot be found: 'appsetting'
+   at NLog.Config.Factory`2.CreateInstance(String name)
+   at NLog.Layouts.LayoutParser.GetLayoutRenderer(ConfigurationItemFactory configurationItemFactory, String name)
+2018-08-06 16:31:49.9940 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2018-08-06 16:31:50.0078 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: database
+2018-08-06 16:33:35.7274 Error Error parsing layout appsetting will be ignored. Exception: System.ArgumentException: LayoutRenderer cannot be found: 'appsetting'
+   at NLog.Config.Factory`2.CreateInstance(String name)
+   at NLog.Layouts.LayoutParser.GetLayoutRenderer(ConfigurationItemFactory configurationItemFactory, String name)
+2018-08-06 16:33:35.8216 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2018-08-06 16:33:35.8216 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: database
+2018-08-06 16:45:37.1948 Error Error parsing layout appsetting will be ignored. Exception: System.ArgumentException: LayoutRenderer cannot be found: 'appsetting'
+   at NLog.Config.Factory`2.CreateInstance(String name)
+   at NLog.Layouts.LayoutParser.GetLayoutRenderer(ConfigurationItemFactory configurationItemFactory, String name)
+2018-08-06 16:45:37.2661 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2018-08-06 16:45:37.2773 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: database
+2018-08-07 11:29:31.2626 Error Error parsing layout appsetting will be ignored. Exception: System.ArgumentException: LayoutRenderer cannot be found: 'appsetting'
+   at NLog.Config.Factory`2.CreateInstance(String name)
+   at NLog.Layouts.LayoutParser.GetLayoutRenderer(ConfigurationItemFactory configurationItemFactory, String name)
+2018-08-07 11:29:31.3720 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2018-08-07 11:29:31.3720 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: database
+2018-08-07 12:30:32.6398 Error Error parsing layout appsetting will be ignored. Exception: System.ArgumentException: LayoutRenderer cannot be found: 'appsetting'
+   at NLog.Config.Factory`2.CreateInstance(String name)
+   at NLog.Layouts.LayoutParser.GetLayoutRenderer(ConfigurationItemFactory configurationItemFactory, String name)
+2018-08-07 12:30:32.7451 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2018-08-07 12:30:32.7730 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: database
+2018-08-07 12:50:24.1189 Error Error parsing layout appsetting will be ignored. Exception: System.ArgumentException: LayoutRenderer cannot be found: 'appsetting'
+   at NLog.Config.Factory`2.CreateInstance(String name)
+   at NLog.Layouts.LayoutParser.GetLayoutRenderer(ConfigurationItemFactory configurationItemFactory, String name)
+2018-08-07 12:50:24.2007 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2018-08-07 12:50:24.2152 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: database
+2018-08-07 12:58:28.2227 Error Error parsing layout appsetting will be ignored. Exception: System.ArgumentException: LayoutRenderer cannot be found: 'appsetting'
+   at NLog.Config.Factory`2.CreateInstance(String name)
+   at NLog.Layouts.LayoutParser.GetLayoutRenderer(ConfigurationItemFactory configurationItemFactory, String name)
+2018-08-07 12:58:29.0846 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2018-08-07 12:58:29.0932 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: database
+2018-08-07 13:18:40.6484 Error Error parsing layout appsetting will be ignored. Exception: System.ArgumentException: LayoutRenderer cannot be found: 'appsetting'
+   at NLog.Config.Factory`2.CreateInstance(String name)
+   at NLog.Layouts.LayoutParser.GetLayoutRenderer(ConfigurationItemFactory configurationItemFactory, String name)
+2018-08-07 13:18:40.6970 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2018-08-07 13:18:40.7060 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: database
+2018-08-07 13:20:40.7577 Error Error parsing layout appsetting will be ignored. Exception: System.ArgumentException: LayoutRenderer cannot be found: 'appsetting'
+   at NLog.Config.Factory`2.CreateInstance(String name)
+   at NLog.Layouts.LayoutParser.GetLayoutRenderer(ConfigurationItemFactory configurationItemFactory, String name)
+2018-08-07 13:20:40.8544 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2018-08-07 13:20:40.8688 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: database
+2018-08-07 13:59:53.9594 Error Error parsing layout appsetting will be ignored. Exception: System.ArgumentException: LayoutRenderer cannot be found: 'appsetting'
+   at NLog.Config.Factory`2.CreateInstance(String name)
+   at NLog.Layouts.LayoutParser.GetLayoutRenderer(ConfigurationItemFactory configurationItemFactory, String name)
+2018-08-07 13:59:54.0279 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2018-08-07 13:59:54.0279 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: database
+2018-08-07 15:11:44.5971 Error Error parsing layout appsetting will be ignored. Exception: System.ArgumentException: LayoutRenderer cannot be found: 'appsetting'
+   at NLog.Config.Factory`2.CreateInstance(String name)
+   at NLog.Layouts.LayoutParser.GetLayoutRenderer(ConfigurationItemFactory configurationItemFactory, String name)
+2018-08-07 15:11:44.6764 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2018-08-07 15:11:44.6872 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: database
+2018-08-07 17:32:50.0850 Error Error parsing layout appsetting will be ignored. Exception: System.ArgumentException: LayoutRenderer cannot be found: 'appsetting'
+   at NLog.Config.Factory`2.CreateInstance(String name)
+   at NLog.Layouts.LayoutParser.GetLayoutRenderer(ConfigurationItemFactory configurationItemFactory, String name)
+2018-08-07 17:32:50.2093 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2018-08-07 17:32:50.2272 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: database
+2018-08-07 19:18:22.4862 Error Error parsing layout appsetting will be ignored. Exception: System.ArgumentException: LayoutRenderer cannot be found: 'appsetting'
+   at NLog.Config.Factory`2.CreateInstance(String name)
+   at NLog.Layouts.LayoutParser.GetLayoutRenderer(ConfigurationItemFactory configurationItemFactory, String name)
+2018-08-07 19:18:22.5447 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2018-08-07 19:18:22.5447 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: database
+2018-08-07 19:30:00.6520 Error Error parsing layout appsetting will be ignored. Exception: System.ArgumentException: LayoutRenderer cannot be found: 'appsetting'
+   at NLog.Config.Factory`2.CreateInstance(String name)
+   at NLog.Layouts.LayoutParser.GetLayoutRenderer(ConfigurationItemFactory configurationItemFactory, String name)
+2018-08-07 19:30:00.7198 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2018-08-07 19:30:00.7289 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: database
+2018-08-08 11:46:40.9356 Error Error parsing layout appsetting will be ignored. Exception: System.ArgumentException: LayoutRenderer cannot be found: 'appsetting'
+   at NLog.Config.Factory`2.CreateInstance(String name)
+   at NLog.Layouts.LayoutParser.GetLayoutRenderer(ConfigurationItemFactory configurationItemFactory, String name)
+2018-08-08 11:46:41.0270 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2018-08-08 11:46:41.0726 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: database
+2018-08-08 11:50:07.7546 Error Error parsing layout appsetting will be ignored. Exception: System.ArgumentException: LayoutRenderer cannot be found: 'appsetting'
+   at NLog.Config.Factory`2.CreateInstance(String name)
+   at NLog.Layouts.LayoutParser.GetLayoutRenderer(ConfigurationItemFactory configurationItemFactory, String name)
+2018-08-08 11:50:07.8533 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2018-08-08 11:50:07.8627 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: database
+2018-08-08 11:53:26.2513 Error Error parsing layout appsetting will be ignored. Exception: System.ArgumentException: LayoutRenderer cannot be found: 'appsetting'
+   at NLog.Config.Factory`2.CreateInstance(String name)
+   at NLog.Layouts.LayoutParser.GetLayoutRenderer(ConfigurationItemFactory configurationItemFactory, String name)
+2018-08-08 11:53:26.3240 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2018-08-08 11:53:26.3370 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: database
+2018-08-08 12:03:32.8999 Error Error parsing layout appsetting will be ignored. Exception: System.ArgumentException: LayoutRenderer cannot be found: 'appsetting'
+   at NLog.Config.Factory`2.CreateInstance(String name)
+   at NLog.Layouts.LayoutParser.GetLayoutRenderer(ConfigurationItemFactory configurationItemFactory, String name)
+2018-08-08 12:03:32.9475 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2018-08-08 12:03:32.9552 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: database
+2018-08-08 12:28:22.5291 Error Error parsing layout appsetting will be ignored. Exception: System.ArgumentException: LayoutRenderer cannot be found: 'appsetting'
+   at NLog.Config.Factory`2.CreateInstance(String name)
+   at NLog.Layouts.LayoutParser.GetLayoutRenderer(ConfigurationItemFactory configurationItemFactory, String name)
+2018-08-08 12:28:22.6637 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2018-08-08 12:28:22.6637 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: database
+2018-08-08 12:56:54.9681 Error Error parsing layout appsetting will be ignored. Exception: System.ArgumentException: LayoutRenderer cannot be found: 'appsetting'
+   at NLog.Config.Factory`2.CreateInstance(String name)
+   at NLog.Layouts.LayoutParser.GetLayoutRenderer(ConfigurationItemFactory configurationItemFactory, String name)
+2018-08-08 12:56:55.1205 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2018-08-08 12:56:55.1205 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: database
+2018-08-09 11:00:52.1846 Error Error parsing layout appsetting will be ignored. Exception: System.ArgumentException: LayoutRenderer cannot be found: 'appsetting'
+   at NLog.Config.Factory`2.CreateInstance(String name)
+   at NLog.Layouts.LayoutParser.GetLayoutRenderer(ConfigurationItemFactory configurationItemFactory, String name)
+2018-08-09 11:00:52.2473 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2018-08-09 11:00:52.2473 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: database
+2018-08-14 13:21:36.1043 Error Error parsing layout appsetting will be ignored. Exception: System.ArgumentException: LayoutRenderer cannot be found: 'appsetting'
+   at NLog.Config.Factory`2.CreateInstance(String name)
+   at NLog.Layouts.LayoutParser.GetLayoutRenderer(ConfigurationItemFactory configurationItemFactory, String name)
+2018-08-14 13:21:36.2129 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2018-08-14 13:21:36.2387 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: database
+2018-08-14 14:36:15.7243 Error Error parsing layout appsetting will be ignored. Exception: System.ArgumentException: LayoutRenderer cannot be found: 'appsetting'
+   at NLog.Config.Factory`2.CreateInstance(String name)
+   at NLog.Layouts.LayoutParser.GetLayoutRenderer(ConfigurationItemFactory configurationItemFactory, String name)
+2018-08-14 14:36:15.8110 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2018-08-14 14:36:15.8110 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: database
+2018-08-14 15:38:11.1843 Error Error parsing layout appsetting will be ignored. Exception: System.ArgumentException: LayoutRenderer cannot be found: 'appsetting'
+   at NLog.Config.Factory`2.CreateInstance(String name)
+   at NLog.Layouts.LayoutParser.GetLayoutRenderer(ConfigurationItemFactory configurationItemFactory, String name)
+2018-08-14 15:38:11.3845 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2018-08-14 15:38:11.3970 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: database
+2018-08-23 15:31:17.6276 Error Error parsing layout appsetting will be ignored. Exception: System.ArgumentException: LayoutRenderer cannot be found: 'appsetting'
+   at NLog.Config.Factory`2.CreateInstance(String name)
+   at NLog.Layouts.LayoutParser.GetLayoutRenderer(ConfigurationItemFactory configurationItemFactory, String name)
+2018-08-23 15:31:18.1223 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2018-08-23 15:31:18.1223 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: database
+2018-09-04 13:26:26.3324 Error Error parsing layout appsetting will be ignored. Exception: System.ArgumentException: LayoutRenderer cannot be found: 'appsetting'
+   at NLog.Config.Factory`2.CreateInstance(String name)
+   at NLog.Layouts.LayoutParser.GetLayoutRenderer(ConfigurationItemFactory configurationItemFactory, String name)
+2018-09-04 13:26:26.4047 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2018-09-04 13:26:26.4237 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: database
+2018-09-04 13:54:40.5734 Error Error parsing layout appsetting will be ignored. Exception: System.ArgumentException: LayoutRenderer cannot be found: 'appsetting'
+   at NLog.Config.Factory`2.CreateInstance(String name)
+   at NLog.Layouts.LayoutParser.GetLayoutRenderer(ConfigurationItemFactory configurationItemFactory, String name)
+2018-09-04 13:54:40.6839 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2018-09-04 13:54:40.6934 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: database
+2018-09-04 16:41:53.8749 Error Error parsing layout appsetting will be ignored. Exception: System.ArgumentException: LayoutRenderer cannot be found: 'appsetting'
+   at NLog.Config.Factory`2.CreateInstance(String name)
+   at NLog.Layouts.LayoutParser.GetLayoutRenderer(ConfigurationItemFactory configurationItemFactory, String name)
+2018-09-04 16:41:53.9751 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2018-09-04 16:41:53.9895 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: database
+2018-09-04 17:39:57.1800 Error Error parsing layout appsetting will be ignored. Exception: System.ArgumentException: LayoutRenderer cannot be found: 'appsetting'
+   at NLog.Config.Factory`2.CreateInstance(String name)
+   at NLog.Layouts.LayoutParser.GetLayoutRenderer(ConfigurationItemFactory configurationItemFactory, String name)
+2018-09-04 17:39:57.2407 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2018-09-04 17:39:57.2539 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: database

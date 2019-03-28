@@ -1,0 +1,1 @@
+D:\Github Opensource Code\MyMicroservicesApplication-master\dockerstack-application\Services\Docker\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache

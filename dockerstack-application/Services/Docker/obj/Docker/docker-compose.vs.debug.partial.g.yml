@@ -1,0 +1,96 @@
+version: '3.4'
+
+services:
+  auth:
+    image: auth:dev
+    build:
+      target: base
+    environment:
+      - DOTNET_USE_POLLING_FILE_WATCHER=1
+      #- NUGET_FALLBACK_PACKAGES=$container_paths_to_fallback_packages_auth$
+    volumes:
+      - D:\Code\MicroservicesApplication\dockerstack-application\Services\AuthService:/app
+      - C:\Users\ubhandaru\vsdbg\vs2017u5:/remote_debugger:ro
+#$nuget_volume_mapping_auth$
+    entrypoint: tail -f /dev/null
+    labels:
+      com.microsoft.visualstudio.debuggee.program: "dotnet"
+      #com.microsoft.visualstudio.debuggee.arguments: " $debuggee_arguments_probing_paths_auth$ bin/Debug/netcoreapp2.1/AuthService.dll"
+      com.microsoft.visualstudio.debuggee.workingdirectory: "/app"
+      com.microsoft.visualstudio.debuggee.killprogram: "/bin/bash -c \"if PID=$$(pidof -x dotnet); then kill $$PID; fi\""
+
+  basket:
+    image: basket:dev
+    build:
+      target: base
+    environment:
+      - DOTNET_USE_POLLING_FILE_WATCHER=1
+      #- NUGET_FALLBACK_PACKAGES=$container_paths_to_fallback_packages_basket$
+    volumes:
+      - D:\Code\MicroservicesApplication\dockerstack-application\Services\Basket\Basket.Application:/app
+      - C:\Users\ubhandaru\vsdbg\vs2017u5:/remote_debugger:ro
+#$nuget_volume_mapping_basket$
+    entrypoint: tail -f /dev/null
+    labels:
+      com.microsoft.visualstudio.debuggee.program: "dotnet"
+      #com.microsoft.visualstudio.debuggee.arguments: " $debuggee_arguments_probing_paths_basket$ bin/Debug/netcoreapp2.1/Basket.Application.dll"
+      com.microsoft.visualstudio.debuggee.workingdirectory: "/app"
+      com.microsoft.visualstudio.debuggee.killprogram: "/bin/bash -c \"if PID=$$(pidof -x dotnet); then kill $$PID; fi\""
+
+
+  catalog:
+    image: catalog:dev
+    build:
+      target: base
+    environment:
+      - DOTNET_USE_POLLING_FILE_WATCHER=1
+      #- NUGET_FALLBACK_PACKAGES=$container_paths_to_fallback_packages_catalog$
+    volumes:
+      - D:\Code\MicroservicesApplication\dockerstack-application\Services\Catalog\Catalog.Application:/app
+      - C:\Users\ubhandaru\vsdbg\vs2017u5:/remote_debugger:ro
+#$nuget_volume_mapping_catalog$
+    entrypoint: tail -f /dev/null
+    labels:
+      com.microsoft.visualstudio.debuggee.program: "dotnet"
+      #com.microsoft.visualstudio.debuggee.arguments: " $debuggee_arguments_probing_paths_catalog$ bin/Debug/netcoreapp2.1/Catalog.Application.dll"
+      com.microsoft.visualstudio.debuggee.workingdirectory: "/app"
+      com.microsoft.visualstudio.debuggee.killprogram: "/bin/bash -c \"if PID=$$(pidof -x dotnet); then kill $$PID; fi\""
+
+
+  gateway:
+    image: gateway:dev
+    build:
+      target: base
+    environment:
+      - DOTNET_USE_POLLING_FILE_WATCHER=1
+      #- NUGET_FALLBACK_PACKAGES=$container_paths_to_fallback_packages_gateway$
+    volumes:
+      - D:\Code\MicroservicesApplication\dockerstack-application\Services\Gateway\Api.Gateway:/app
+      - C:\Users\ubhandaru\vsdbg\vs2017u5:/remote_debugger:ro
+#$nuget_volume_mapping_gateway$
+    entrypoint: tail -f /dev/null
+    labels:
+      com.microsoft.visualstudio.debuggee.program: "dotnet"
+      #com.microsoft.visualstudio.debuggee.arguments: " $debuggee_arguments_probing_paths_gateway$ bin/Debug/netcoreapp2.1/Api.Gateway.dll"
+      com.microsoft.visualstudio.debuggee.workingdirectory: "/app"
+      com.microsoft.visualstudio.debuggee.killprogram: "/bin/bash -c \"if PID=$$(pidof -x dotnet); then kill $$PID; fi\""
+
+
+  order:
+    image: order:dev
+    build:
+      target: base
+    environment:
+      - DOTNET_USE_POLLING_FILE_WATCHER=1
+      #- NUGET_FALLBACK_PACKAGES=$container_paths_to_fallback_packages_order$
+    volumes:
+      - D:\Code\MicroservicesApplication\dockerstack-application\Services\Orders\Orders.Application:/app
+      - C:\Users\ubhandaru\vsdbg\vs2017u5:/remote_debugger:ro
+#$nuget_volume_mapping_order$
+    entrypoint: tail -f /dev/null
+    labels:
+      com.microsoft.visualstudio.debuggee.program: "dotnet"
+      #com.microsoft.visualstudio.debuggee.arguments: " $debuggee_arguments_probing_paths_order$ bin/Debug/netcoreapp2.1/Orders.Application.dll"
+      com.microsoft.visualstudio.debuggee.workingdirectory: "/app"
+      com.microsoft.visualstudio.debuggee.killprogram: "/bin/bash -c \"if PID=$$(pidof -x dotnet); then kill $$PID; fi\""
+
